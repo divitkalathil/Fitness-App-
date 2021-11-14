@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMIActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7FFFFFF"
+            app:subtitleTextColor="#0A0A0A"
+            app:titleTextColor="#111111" />
+
+
+        <TextView
+            android:id="@+id/Weight"
+            android:textColor="@color/purple_500"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Weight"/>
+
+        <EditText
+            android:id="@+id/etext1"
+            android:textColor="@color/purple_500"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/Height"
+            android:textColor="@color/purple_500"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Height"/>
+
+        <EditText
+            android:id="@+id/etext2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/purple_500"
+            android:visibility="visible"
+            tools:visibility="visible" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button1"
+            android:onClick="doSum"
+            android:text="Calculate"/>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="356dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="151dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="287dp"
+            android:background="@android:color/white"
+            android:text="Result"
+            android:textColorLink="#673AB7"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

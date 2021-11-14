@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Myapp_drawable</string>
+    <string name="profile">Profile</string>
+    <string name="john_doe">Vivek Mandal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

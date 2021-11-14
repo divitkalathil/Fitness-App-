@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/menuProfile"
+    android:title="BMI"
+    android:icon="@drawable/bmi"/>
+
+    <item
+        android:id="@+id/menuYogaAndDiet"
+        android:title="Yoga and Diet"
+        android:icon="@drawable/exercise"/>
+
+    <item
+        android:id="@+id/menuPedometer"
+        android:title="Pedometer"
+        android:icon="@drawable/pedometer"/>
+
+
+    <item
+        android:id="@+id/menuCommunity"
+        android:title="Community"
+        android:icon="@drawable/community"/>
+
+    <item
+        android:id="@+id/menuVideoTracking"
+        android:title="VideoTracking"
+        android:icon="@drawable/videotracking"/>
+
+    <item
+        android:id="@+id/menuLifestyleAndWellness"
+        android:title="Lifestyle And Wellness"
+        android:icon="@drawable/lifestyleandwellness"/>
+<item android:title="Others">
+
+    <menu>
+        <item
+            android:id="@+id/menuAboutUs"
+            android:title="AboutUs"
+            android:icon="@drawable/about_us"/>
+
+        <item
+            android:id="@+id/menuPrivacyPolicy"
+            android:title="Privacy Policy"
+            android:icon="@drawable/privacypolicy"/>
+
+        <item
+            android:id="@+id/menuShare"
+            android:title="Share"
+            android:icon="@drawable/share"/>
+    </menu>
+
+
+</item>
+
+
+
+</menu>
